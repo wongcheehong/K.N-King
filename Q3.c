@@ -27,13 +27,13 @@ int main(void)
 
         case 'R':
                 total = R_price * qtty_sold ;
-                printf("\nThe retail price of product %c: $%.2f",product_code, A_price);
+                printf("\nThe retail price of product %c: $%.2f",product_code, R_price);
                 printf("\nThe total retail of the product: $%.2f\n", total);
                 break;
 
         case 'Z':
                 total = Z_price * qtty_sold ;
-                printf("\nThe retail price of product %c: $%.2f",product_code, A_price);
+                printf("\nThe retail price of product %c: $%.2f",product_code, Z_price);
                 printf("\nThe total retail of the product: $%.2f\n", total);
                 break;
         default: break;
